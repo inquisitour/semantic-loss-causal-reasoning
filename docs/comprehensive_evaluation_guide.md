@@ -7,7 +7,7 @@ This guide covers evaluation for 5 benchmarking tasks:
 2. **Fine-tuned Transitivity** (standard loss)
 3. **Fine-tuned D-separation** (standard loss)  
 4. **Semantic Transitivity V4** (with semantic loss)
-5. **Semantic D-separation** (with semantic loss - when available)
+5. **Semantic D-separation V2** (with semantic loss)
 
 ## Setup Instructions for Colab Pro
 
@@ -40,7 +40,7 @@ MODEL_PATHS = {
     "transitivity_baseline": "/content/drive/MyDrive/gemma_transitivity_models/transitivity_v1_merged",
     "dseparation_baseline": "/content/drive/MyDrive/gemma_dseparation_models/dseparation_v1_merged",
     "transitivity_semantic_v4": "/content/drive/MyDrive/gemma_semantic_models/transitivity/semantic_v4_merged",
-    "dseparation_semantic": "/content/drive/MyDrive/gemma_semantic_models/dseparation/semantic_v1_merged"  # Update path when available
+    "dseparation_semantic": "/content/drive/MyDrive/gemma_semantic_models/dseparation/semantic_v2_merged" 
 }
 
 # Data path
@@ -541,7 +541,7 @@ for model_name, acc in quick_results.items():
     ├── transitivity/
     │   └── semantic_v4_merged/
     └── dseparation/
-        └── semantic_v1_merged/ (when available)
+        └── semantic_v2_merged/
 ```
 
 ## Notes
