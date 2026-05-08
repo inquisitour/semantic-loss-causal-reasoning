@@ -60,10 +60,15 @@ Branching task improvement: **1.96% → 97.9%** (Transitivity Semantic V4)
 - [Evaluation Report (4 models)](./evaluations/report.md)
 
 ## Citation
+If you find this work useful, please cite:
+
 ```bibtex
 @article{deshmukh2026semantic,
   title={On Semantic Loss Fine-Tuning Approach for Preventing Model Collapse in Causal Reasoning},
   author={Deshmukh, Pratik and Gupta, Atirek},
+  journal={arXiv preprint arXiv:2605.05438},
   year={2026}
 }
+
+Paper: [arXiv:2605.05438](https://arxiv.org/abs/2605.05438)
 ```
