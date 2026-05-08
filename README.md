@@ -69,6 +69,5 @@ If you find this work useful, please cite:
   journal={arXiv preprint arXiv:2605.05438},
   year={2026}
 }
-
-Paper: [arXiv:2605.05438](https://arxiv.org/abs/2605.05438)
 ```
+Paper: [arXiv:2605.05438](https://arxiv.org/abs/2605.05438)
